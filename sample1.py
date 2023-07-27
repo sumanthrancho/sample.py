@@ -16,8 +16,9 @@ player = st.text_input("Enter a choice (Rock (R), Paper (P), Scissors(S)) only c
 
 
 
-st.write("You chose {0} and computer chose {1} \n".format(player,computer))
+
 if(st.button('Submit')):
+  st.write("You chose {0} and computer chose {1} \n".format(player,computer))
   if(player==computer):
     st.error("Both players selected {}. It is a tie!".format(player))
 
