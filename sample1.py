@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+st.title("Rancho Labs")
 st.title('Welcome to Rock , Paper, Sicssors !\n')
 player_win=0
 computer_win=0
@@ -7,8 +8,7 @@ choices=['R','P','S']
 computer=random.choice(choices)
 
 # print(computer)
-st.title("Rancho Labs")
-st.header("Rock-Paper-Sicssor")
+
 
 
 player = st.text_input("Enter a choice (Rock (R), Paper (P), Scissors(S)) only capital case :\n")
