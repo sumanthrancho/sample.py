@@ -32,8 +32,10 @@ if(st.button('Submit')):
   elif player=='P':
     if computer =='R':
       st.success("Hurray ! , You win")
+      player_win+=1
     else:
       st.error('Opps! , You lose')
+      computer_win+=1
 
   elif player =="S":
     if computer =='P':
