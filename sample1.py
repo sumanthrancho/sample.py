@@ -1,4 +1,3 @@
 import streamlit as st
-st.write("hello world")
-st.write("hai")
-
+st.title("Rancho Labs")
+st.write("Rock-Paper-Sicssor")
