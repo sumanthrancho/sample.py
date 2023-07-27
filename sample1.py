@@ -11,7 +11,6 @@ st.title("Rancho Labs")
 st.header("Rock-Paper-Sicssor")
 
 
-
 player = st.text_input("Enter a choice (Rock (R), Paper (P), Scissors(S)) only capital case :\n")
 
 
